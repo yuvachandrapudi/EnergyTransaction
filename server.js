@@ -1,3 +1,5 @@
+//This program is used to connect the front end with the backend by using the API's where used express js
+
 const express = require('express');
 const cors = require('cors');
 const mysql = require('mysql2');
