@@ -1,0 +1,106 @@
+/* General Styles for Register Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.register-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.register-heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.register-input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.register-submit-button {
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.register-submit-button:hover {
+    background-color: #218838;
+}
+.addproduct-container {
+    max-width: 600px; /* Increased width to fit horizontal elements */
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.addproduct-form {
+    display: flex;
+    flex-direction: row; /* Change direction to row to align elements horizontally */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Add spacing between elements */
+}
+.addproduct-label {
+    margin-bottom: 5px;
+    color: #333;
+    margin-right: 10px; /* Add margin to separate from input fields */
+}
+.addproduct-input {
+    padding: 10px;
+    margin-right: 15px; /* Add margin to separate input fields */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1; /* Allow inputs to grow and take available space */
+}
+.addproduct-heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
